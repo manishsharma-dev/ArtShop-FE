@@ -9,8 +9,8 @@ import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angula
 })
 export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
-  fb = Inject(FormBuilder);
-  constructor() { }
+
+  constructor(private fb : FormBuilder) { }
   ngOnInit() {
     this.createForm()
   }
