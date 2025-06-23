@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "manishsharma-dev/ArtShop-FE",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

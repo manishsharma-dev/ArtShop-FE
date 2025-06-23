@@ -12,7 +12,7 @@ import { TranslationService } from './services/translation/translation.service';
 })
 export class AppComponent {
   title = 'angular18-ecom';
-
+  //TODO: Add a language switcher to change the language dynamically
 
     constructor(private translate: TranslateService,private translationService: TranslationService) {
       translate.setDefaultLang('en');
